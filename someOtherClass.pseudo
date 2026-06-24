@@ -1,0 +1,10 @@
+public class SomeOtherClass {
+
+    public main() {
+
+        //Replaced direct instantiation with Singleton access
+        Logger l = Logger.getLoggerInstance();
+
+        l.info("hello from some other class!");
+    }
+}
