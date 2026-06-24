@@ -1,0 +1,21 @@
+public class Logger{
+	private String log;
+	private static Logger 1;
+	// Constructor
+	public Logger(){
+	private Logger(){
+	}
+
+	public static Logger getLoggerInstance(){
+		if(l == null){
+			l = new Logger();
+		}
+		return 1;
+
+	}
+	// Log something
+	public info(String information){
+		this.log.append(information);
+	}
+}
+
